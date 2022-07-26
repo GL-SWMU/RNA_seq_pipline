@@ -179,7 +179,7 @@ def table(output, basic_statistics, list):
     output.write('<tr>\n<td colspan=2></td>\n<td colspan="%d" ' \
                  'align="center">FastQC Pre-Trim</td>\n<td colspan="%d" ' \
                  'align="center">FastQC Post-Trim</td>\n<td colspan="%d" ' \
-                 'align="center">TopHat Alignment Stats</td>\n<td ' \
+                 'align="center">TopHat2 Alignment Stats</td>\n<td ' \
                  'colspan="%d" align="center">RNA-SeQC</td>\n</tr>' % \
                  (len(extract_fastqc), len(extract_fastqc),
                   len(extract_alignment), len(extract_rnaseqc)))
@@ -306,7 +306,7 @@ def main():
 
 
     #-------------------------------------------------------
-    # Alignment stats from TopHat
+    # Alignment stats from TopHat2
     #-------------------------------------------------------
     # parse files
     alignment_samples = {}
