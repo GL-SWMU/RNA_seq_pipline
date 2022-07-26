@@ -1,12 +1,12 @@
 
-# Differential expression analysis pipeline
+# NGS RNA-seq pipeline & DEGs analysis
 
 ## Overview
 
 This is a basic differential expression analysis pipeline was first devolped by [jessicachung](https://github.com/jessicachung/).
 Thanks for his kind sharing of such an excellent work.
 
-It is based around the Tuxedo protocol (Tophat, Cufflinks) and EdgeR/DEseq with HTSeq-count.
+It is based around the Tuxedo protocol (Tophat2, Cufflinks) and EdgeR/DEseq with HTSeq-count.
 
 To run the pipeline you will need the Ruffus library: [http://www.ruffus.org.uk/](http://www.ruffus.org.uk/).
 
