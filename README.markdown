@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is a basic differential expression analysis pipeline was first taught in jessicachung/rna_seq_pipeline.
+This is a basic differential expression analysis pipeline was first devolped by [jessicachung](https://github.com/jessicachung/rna_seq_pipeline.git).
 
 It is based around the Tuxedo protocol (Tophat, Cufflinks) and EdgeR/Voom with HTSeq-count.
 
